@@ -21,8 +21,42 @@ c. tidak diperlukan deklarasi variabel atau argumen.
 
 Menggunakan Interpreter
 untuk memulai python dengan 
-![a](images/01/ss-a.jpg)
+![a](images/01/ss-a.JPG)
 Dalam mode ini ia meminta perintah berikutnya dengan prompt utama , biasanya tiga tanda lebih besar dari ( >>>); untuk baris lanjutan ia meminta dengan prompt sekunder , secara default tiga titik ( ...).
-![b](images/01/ss-b.jpg)
+![b](images/01/ss-b.JPG)
 
 #BAB 3
+
+Pengantar Python
+
+Komentar dalam Python dimulai dengan karakter hash, #, dan diperpanjang hingga akhir baris fisik. 
+![01](images/01/ss-01.JPG)
+
+KALKULATOR
+
+Numeric
+operator +,-,* dan /
+![02](images/01/ss-02.JPG)
+
+Pembagian (/) selalu menghasilkan bilangan float
+operator // menghasilkan bilangan integer (membuang hasil pecahan)
+operator % menghitung sisa hasil bagi
+![03](images/01/ss-03.JPG)
+
+Bilangan pangkat (**)
+![04](images/01/ss-04.JPG)
+
+Variabel
+Tanda sama dengan ( =) digunakan untuk memberikan nilai pada variabel. Jika suatu variabel tidak "didefinisikan" (diberi nilai), mencoba menggunakannya akan memberi Anda kesalahan
+![05](images/01/ss-05.JPG)
+
+Operasi gabungan antara bilangan integer dan bilangan float
+![06](images/01/ss-06.JPG)
+
+Dalam mode interaktif, ekspresi tercetak terakhir ditetapkan ke variabel _. 
+![07](images/01/ss-07.JPG)
+
+
+STRING
+ Python juga dapat memanipulasi string, yang dapat diekspresikan dalam beberapa cara. Mereka dapat diapit oleh tanda kutip tunggal ( '...') atau tanda kutip ganda ( "...") dengan hasil yang sama 
+ ![08](images/01/ss-08.JPG)
