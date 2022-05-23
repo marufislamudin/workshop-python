@@ -287,6 +287,7 @@ Conda menggunakan aturan yang sama untuk paket lain. selalu menginstal versi ter
 
 
 # Getting started with conda
+
 Conda adalah pengelola paket dan pengelola environment andal yang digunakan dengan perintah baris perintah di Anaconda Prompt untuk Windows, atau di jendela terminal untuk macOS atau Linux.
 
 Sebelum memulai pastikan sudah [menginstall Anaconda](https://docs.anaconda.com/anaconda/install/)
