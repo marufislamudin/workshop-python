@@ -42,25 +42,54 @@ Tipe daftar memiliki beberapa metode sebagai berikut
 Contoh penggunaan metode daftar 
 
 ```python
->>> fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
->>> fruits.count('apple')
+# 5.1.  Daftar
+# Tipe data daftar memiliki beberapa metode lagi. Berikut adalah semua metode objek daftar:
+
+fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+fruits.count('apple')
+
 2
->>> fruits.count('tangerine')
+
+```
+
+```python
+fruits.count('tangerine')
 0
->>> fruits.index('banana')
+
+```python
+fruits.index('banana')
 3
->>> fruits.index('banana', 4)  # Find next banana starting a position 4
+```
+
+```python
+fruits.index('banana', 4)  # Find next banana starting a position 4
 6
->>> fruits.reverse()
->>> fruits
+```
+
+```python
+# Balikkan elemen daftar di tempatnya
+fruits.reverse()
+fruits
 ['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange']
->>> fruits.append('grape')
->>> fruits
+```
+
+```python
+# menambahkan ke akhir daftar
+fruits.append('grape')
+fruits
 ['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange', 'grape']
->>> fruits.sort()
->>> fruits
+```
+
+```python
+# mengurutkan urutan berdasarkan abjad
+fruits.sort()
+fruits
 ['apple', 'apple', 'banana', 'banana', 'grape', 'kiwi', 'orange', 'pear']
->>> fruits.pop()
+```
+
+```python
+# hapus item di belakang
+fruits.pop()
 'pear'
 ```
 
@@ -74,20 +103,35 @@ Untuk mengambil item dari atas tumpukan, gunakan `pop()` tanpa indeks eksplisit.
 Contoh program
 
 ```python
->>> stack = [3, 4, 5]
->>> stack.append(6)
->>> stack.append(7)
->>> stack
+stack = [3, 4, 5]
+stack.append(6)
+stack.append(7)
+stack
 [3, 4, 5, 6, 7]
->>> stack.pop()
+```
+
+```python
+stack.pop()
 7
->>> stack
+```
+
+```python
+stack
 [3, 4, 5, 6]
->>> stack.pop()
+```
+
+```python
+stack.pop()
 6
->>> stack.pop()
+```
+
+```python
+stack.pop()
 5
->>> stack
+```
+
+```python
+stack
 [3, 4]
 ```
 
@@ -99,15 +143,22 @@ Untuk mengimplementasikan antrian, gunakan `collections.deque` yang dirancang un
 Contoh:
 
 ```python
->>> from collections import deque
->>> queue = deque(["Eric", "John", "Michael"])
->>> queue.append("Terry")           # masuk Terry
->>> queue.append("Graham")          # masuk Graham
->>> queue.popleft()                 # Eric keluar pertama
+from collections import deque
+queue = deque(["Eric", "John", "Michael"])
+queue.append("Terry")           # masuk Terry
+queue.append("Graham")          # masuk Graham
+queue.popleft()                 # Eric keluar pertama
+
 'Eric'
->>> queue.popleft()                 # John keluar kedua
+```
+
+```python
+queue.popleft()                 # John keluar kedua
 'John'
->>> queue                           # menampilkan yang masih berada dalam antrian
+```
+
+```python
+queue                           # menampilkan yang masih berada dalam antrian
 deque(['Michael', 'Terry', 'Graham'])
 ```
 
