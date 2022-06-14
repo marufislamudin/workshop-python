@@ -1,0 +1,1 @@
+https://data.jakarta.go.id/dataset/25ab0d30441a7ca1ad0e8b195be4dedc/resource/c1b0af737c9609d61cc58d9786a9c200/download/Data-Jumlah-Penerbitan-Akta-Kelahiran-Penduduk-DKI-Jakarta-Triwulan-1-Januari-sampai-Maret-Tahun-2021.csv
